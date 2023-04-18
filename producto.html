@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Producto - FrontEnd Store</title>
+	<link rel="stylesheet" href="css/noramlize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<a href="index.html">
+			<img class="header__logo" src="img/logo.png" alt="">
+		</a>
+	</header>
+	<nav class="navegacion">
+		<a class="navegacion__enlace" href="index.html">Tienda</a>
+		<a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+	</nav>
+	<main class="contenedor">
+		<h1>React JS</h1>
+		<div class="camisa">
+
+			<img class="camisa__imagen" src="img/3.jpg" alt="Imagen del Producto">
+
+			<div class="camisa__contenido">
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+				
+				<form class="formulario">
+					<select class="formulario__campo">
+						<option value="" disabled selected>--Seleccionar talla--</option>
+						<option value="">S</option>
+						<option value="">M</option>
+						<option value="">L</option>
+						<option value="">XL</option>
+					</select>
+					<input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+					<input class="formulario__submit" type="submit" value="Agregar al Carrito">
+				</form>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<p class="footer__texto">Front End Store - Todos los derechos Reservados 2023</p>
+	</footer>
+</body>
+</html>
